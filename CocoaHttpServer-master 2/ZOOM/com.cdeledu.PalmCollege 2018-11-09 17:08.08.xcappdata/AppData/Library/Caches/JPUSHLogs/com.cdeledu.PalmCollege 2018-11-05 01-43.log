@@ -1,0 +1,1538 @@
+2018-11-05 09:43:08.851 | JPUSH | D - [JPUSHService] Action - JPUSH begin Setup with appkey:e88ad46410761a1bb90a9ee9 channel:App Store isProduction:TRUE advertisingIdentifier: 
+2018-11-05 09:43:08.879 | JPUSH | I - [JPUSHService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:2.1.6--build:374----------
+-----------------AppKey:e88ad46410761a1bb90a9ee9----------------
+----------------------------------------------------------------
+2018-11-05 09:43:08.881 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 09:43:08.881 | JPUSH | I - [JPUSHClientController] Action - setup
+2018-11-05 09:43:08.941 | JPUSH | D - [JPUSHHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2018-11-05 09:43:08.945 | JPUSH | D - [JPUSHHttpSessionController] wifi 信息:{
+    "mac_address" = "74:ea:cb:25:f5:61";
+    ssid = "DL-LanTest";
+}
+2018-11-05 09:43:08.946 | JPUSH | D - [JPUSHPageFlow] trySetupSession
+2018-11-05 09:43:08.946 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 09:43:08.970 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-02";
+    duration = 8861;
+    itime = 1541135649;
+    "session_id" = 60f472cb45baef29b64d7a2449c27676;
+    time = "13:14:09";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 09:43:09.001 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 09:43:09.002 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 09:43:09.003 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 09:43:09.183 | JPUSH | E - [JPUSHHttpSessionController] http上报错误:无法连接到主机
+2018-11-05 09:43:09.198 | JPUSH | E - [JPUSHHttpSessionController] http上报错误:无法连接到主机
+2018-11-05 09:43:09.213 | JPUSH | E - [JPUSHHttpSessionController] http上报错误:无法连接到主机
+2018-11-05 09:43:09.214 | JPUSH | I - [JPUSHHttpSessionController] 设置badge:0 错误:-1004
+2018-11-05 09:43:10.429 | JPUSH | D - [JPUSHService] Action - registerDeviceToken: <42670326 2b410a3d 641888f9 b3b1242e c5a5050f 10f9f9c7 6e1e5bb6 c9a41c89>
+2018-11-05 09:43:10.453 | JPUSH | D - [JPUSHUserDefaultsController] Action - setCurrentDeviceToken - 426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 09:43:10.454 | JPUSH | D - [JPUSHNetworkController] Action - trySetupSession
+2018-11-05 09:43:10.455 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 09:43:10.456 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 09:43:10.456 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 09:43:10.456 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 09:43:10.457 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 09:43:10.457 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 09:43:10.459 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 09:43:10.485 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 09:43:10.505 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 09:43:10.509 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 09:43:10.516 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 09:43:10.517 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 09:43:10.525 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 09:43:10.567 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 09:43:10.652 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 09:43:10.714 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 09:43:10.714 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 09:43:10.716 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 09:43:10.716 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 09:43:10.717 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 09:43:10.724 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 09:43:10.725 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 09:43:10.827 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 09:43:10.827 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 09:43:10.848 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 09:43:10.899 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:43:10.921 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 09:43:10.922 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 09:43:10.922 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 09:43:10.922 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 09:43:10.924 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 09:43:10.924 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 09:43:10.924 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 09:43:10.925 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 09:43:10.925 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:43:10.925 | JPUSH | I - [JPUSHDeviceTokenReport] try to upload device token:426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 09:43:10.936 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 09:43:10.937 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 09:43:10.937 | JPUSH | I - [JPUSHDeviceTokenReport] upload device token success
+2018-11-05 09:43:37.842 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 09:43:38.033 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 09:43:38.123 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:43:38.123 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 09:43:38.129 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 09:43:38.129 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 09:43:39.535 | JPUSH | I - [JPUSHBadgeNumberReport] warning:badge:0 default error:503
+2018-11-05 09:43:43.073 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 09:43:43.477 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 09:43:43.576 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:43:43.577 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 09:43:43.578 | JPUSH | I - [JPUSHBadgeNumberReport] warning:badge:0 default error:503
+2018-11-05 09:43:50.433 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 09:43:51.128 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 09:43:51.245 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:43:51.245 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 09:43:51.420 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 09:43:53.581 | JPUSH | D - [JPUSHRequest] Action - onAckTimeout - rid:819
+2018-11-05 09:43:53.582 | JPUSH | D - [JPUSHSessionController] Action - onAckTimeoutForRequest:
+2018-11-05 09:43:53.583 | JPUSH | E - [JPUSHSessionController] ack timeout for request rid: 819
+2018-11-05 09:43:53.584 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2018-11-05 09:43:53.584 | JPUSH | D - [JPUSHSessionController] Action - reenqueueSendingRequests
+2018-11-05 09:43:53.585 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 09:43:53.586 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 09:43:53.587 | JPUSH | D - [JPUSHSessionController] Action - startDelaySetupTimer
+2018-11-05 09:43:53.588 | JPUSH | D - [JPUSHSessionController] session will setup delayed with time interval: 2.000000
+2018-11-05 09:43:54.984 | JPUSH | D - [JPUSHService] Action - setTags:{(
+    s5,
+    c4
+)} alias: 65737365 callbackSelector:object:
+2018-11-05 09:43:54.985 | JPUSH | D - [JPUSHService] Action - setTags: {(
+    s5,
+    c4
+)} alias: 65737365 callbackSelector:target:
+2018-11-05 09:43:55.592 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 09:43:55.592 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 09:43:55.593 | JPUSH | D - [JPUSHSessionController] sis is on protect
+2018-11-05 09:43:55.593 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 09:43:55.593 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 09:43:55.593 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 09:43:55.601 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 09:43:55.602 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 09:43:55.602 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 09:43:55.603 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 09:43:55.603 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 09:43:55.635 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:43:55.649 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 09:43:55.650 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 09:43:55.650 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 09:43:55.651 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 09:43:55.662 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 09:43:55.664 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:43:55.672 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 09:43:55.673 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 09:46:33.999 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 09:48:45.697 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:48:45.711 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 09:48:45.712 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 09:53:35.709 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:53:45.715 | JPUSH | D - [JPUSHRequest] Action - onAckTimeout - rid:829
+2018-11-05 09:53:45.716 | JPUSH | D - [JPUSHSessionController] Action - onAckTimeoutForRequest:
+2018-11-05 09:53:45.717 | JPUSH | E - [JPUSHSessionController] ack timeout for request rid: 829
+2018-11-05 09:53:45.718 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2018-11-05 09:53:45.719 | JPUSH | D - [JPUSHSessionController] Action - reenqueueSendingRequests
+2018-11-05 09:53:45.720 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 09:53:45.721 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 09:53:45.722 | JPUSH | D - [JPUSHSessionController] Action - startDelaySetupTimer
+2018-11-05 09:53:45.723 | JPUSH | D - [JPUSHSessionController] session will setup delayed with time interval: 2.000000
+2018-11-05 09:53:47.728 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 09:53:47.729 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 09:53:47.730 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 09:53:47.730 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 09:53:47.731 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 09:53:47.732 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 09:53:47.760 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 09:53:47.761 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 09:53:47.771 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 09:53:47.773 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 09:53:47.774 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 09:53:47.790 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 09:53:47.863 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 09:53:47.990 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 09:53:48.060 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 09:53:48.061 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 09:53:48.063 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 09:53:48.064 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 09:53:48.065 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 09:53:48.082 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 09:53:48.083 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 09:53:48.084 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 09:53:48.084 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 09:53:48.086 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 09:53:48.153 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:53:48.167 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 09:53:48.169 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 09:53:48.169 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 09:53:48.170 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 09:53:48.177 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 09:58:38.143 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 09:58:38.157 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 09:58:38.158 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:03:28.154 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:03:28.169 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:03:28.171 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:07:32.673 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 10:07:32.771 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:07:32.832 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 205;
+    itime = 1541382393;
+    "session_id" = c23e6557839c9c6cd9c1b234627b1798;
+    time = "09:46:33";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 10:07:32.858 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 10:07:32.859 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 10:07:32.859 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 10:07:32.958 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 205;
+        itime = 1541382393;
+        "session_id" = c23e6557839c9c6cd9c1b234627b1798;
+        time = "09:46:33";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-05 10:07:32.966 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 10:07:32.978 | JPUSH | D - [JPUSHReport] send report:(
+        (
+                {
+            date = "2018-11-05";
+            itime = 1541382188;
+            "session_id" = e43d45153ff83904e8058bffc44c1944;
+            time = "09:43:08";
+            timezone = "+8";
+            type = "active_launch";
+        }
+    ),
+        (
+                {
+            cell = "";
+            gps = "";
+            itime = 1541382189;
+            type = "loc_info";
+            wifi =             (
+                                {
+                    "mac_address" = "74:ea:cb:25:f5:61";
+                    ssid = "DL-LanTest";
+                }
+            );
+        }
+    ),
+        (
+                {
+            activities = "";
+            date = "2018-11-02";
+            duration = 8861;
+            itime = 1541135649;
+            "session_id" = 60f472cb45baef29b64d7a2449c27676;
+            time = "13:14:09";
+            timezone = "+8";
+            type = "active_terminate";
+        }
+    ),
+        {
+        date = "2018-11-05";
+        itime = 1541383652;
+        "session_id" = 2f08901443755d6347eb5c855089f486;
+        time = "10:07:32";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-05 10:07:42.776 | JPUSH | D - [JPUSHRequest] Action - onAckTimeout - rid:837
+2018-11-05 10:07:42.778 | JPUSH | D - [JPUSHSessionController] Action - onAckTimeoutForRequest:
+2018-11-05 10:07:42.779 | JPUSH | E - [JPUSHSessionController] ack timeout for request rid: 837
+2018-11-05 10:07:42.782 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2018-11-05 10:07:42.782 | JPUSH | D - [JPUSHSessionController] Action - reenqueueSendingRequests
+2018-11-05 10:07:42.783 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 10:07:42.784 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:07:42.785 | JPUSH | D - [JPUSHSessionController] Action - startDelaySetupTimer
+2018-11-05 10:07:42.786 | JPUSH | D - [JPUSHSessionController] session will setup delayed with time interval: 2.000000
+2018-11-05 10:07:44.792 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 10:07:44.793 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 10:07:44.793 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 10:07:44.794 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 10:07:44.794 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 10:07:44.795 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 10:07:44.816 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 10:07:44.817 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:07:44.828 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 10:07:44.830 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 10:07:44.831 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 10:07:44.842 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 10:07:44.909 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 10:07:45.029 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 10:07:45.094 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 10:07:45.095 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:07:45.098 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 10:07:45.099 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 10:07:45.099 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 10:07:45.137 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 10:07:45.138 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 10:07:45.139 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 10:07:45.140 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 10:07:45.141 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 10:07:45.196 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:07:45.229 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 10:07:45.230 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:07:45.231 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:07:45.232 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 10:07:45.237 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 10:11:18.454 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 10:12:35.269 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:12:35.308 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:12:35.309 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:17:25.274 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:17:25.314 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:17:25.315 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:22:15.267 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:22:25.271 | JPUSH | D - [JPUSHRequest] Action - onAckTimeout - rid:847
+2018-11-05 10:22:25.272 | JPUSH | D - [JPUSHSessionController] Action - onAckTimeoutForRequest:
+2018-11-05 10:22:25.273 | JPUSH | E - [JPUSHSessionController] ack timeout for request rid: 847
+2018-11-05 10:22:25.274 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2018-11-05 10:22:25.275 | JPUSH | D - [JPUSHSessionController] Action - reenqueueSendingRequests
+2018-11-05 10:22:25.276 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 10:22:25.278 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:22:25.278 | JPUSH | D - [JPUSHSessionController] Action - startDelaySetupTimer
+2018-11-05 10:22:25.279 | JPUSH | D - [JPUSHSessionController] session will setup delayed with time interval: 2.000000
+2018-11-05 10:22:27.280 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 10:22:27.281 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 10:22:27.281 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 10:22:27.282 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 10:22:27.282 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 10:22:27.283 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 10:22:27.290 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 10:22:27.290 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:22:27.300 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 10:22:27.302 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 10:22:27.303 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 10:22:27.317 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 10:22:27.392 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 10:22:27.521 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 10:22:27.587 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 10:22:27.588 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:22:27.590 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 10:22:27.591 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 10:22:27.591 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 10:22:27.646 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 10:22:27.648 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 10:22:27.649 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 10:22:27.649 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 10:22:27.650 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 10:22:27.715 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:22:27.760 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 10:22:27.761 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:22:27.762 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:22:27.762 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 10:22:27.768 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 10:27:17.812 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:27:17.860 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:27:17.861 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:32:07.803 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:32:07.854 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:32:07.855 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:36:57.809 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:37:07.813 | JPUSH | D - [JPUSHRequest] Action - onAckTimeout - rid:853
+2018-11-05 10:37:07.814 | JPUSH | D - [JPUSHSessionController] Action - onAckTimeoutForRequest:
+2018-11-05 10:37:07.814 | JPUSH | E - [JPUSHSessionController] ack timeout for request rid: 853
+2018-11-05 10:37:07.815 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2018-11-05 10:37:07.817 | JPUSH | D - [JPUSHSessionController] Action - reenqueueSendingRequests
+2018-11-05 10:37:07.817 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 10:37:07.819 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:37:07.819 | JPUSH | D - [JPUSHSessionController] Action - startDelaySetupTimer
+2018-11-05 10:37:07.820 | JPUSH | D - [JPUSHSessionController] session will setup delayed with time interval: 2.000000
+2018-11-05 10:37:09.821 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 10:37:09.822 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 10:37:09.823 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 10:37:09.823 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 10:37:09.824 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 10:37:09.825 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 10:37:09.838 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 10:37:09.839 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:37:09.849 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 10:37:09.852 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 10:37:09.852 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 10:37:09.866 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 10:37:09.938 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 10:37:10.070 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 10:37:10.138 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 10:37:10.140 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:37:10.142 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 10:37:10.143 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 10:37:10.143 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 10:37:10.189 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 10:37:10.189 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 10:37:10.189 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 10:37:10.189 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 10:37:10.190 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 10:37:10.226 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:37:10.264 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 10:37:10.265 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:37:10.265 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:37:10.265 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 10:37:10.268 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 10:42:00.287 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:42:00.328 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:42:00.329 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:46:50.284 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:46:50.332 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:46:50.333 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:51:40.284 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:51:50.289 | JPUSH | D - [JPUSHRequest] Action - onAckTimeout - rid:859
+2018-11-05 10:51:50.290 | JPUSH | D - [JPUSHSessionController] Action - onAckTimeoutForRequest:
+2018-11-05 10:51:50.290 | JPUSH | E - [JPUSHSessionController] ack timeout for request rid: 859
+2018-11-05 10:51:50.291 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2018-11-05 10:51:50.293 | JPUSH | D - [JPUSHSessionController] Action - reenqueueSendingRequests
+2018-11-05 10:51:50.293 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 10:51:50.295 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:51:50.296 | JPUSH | D - [JPUSHSessionController] Action - startDelaySetupTimer
+2018-11-05 10:51:50.296 | JPUSH | D - [JPUSHSessionController] session will setup delayed with time interval: 2.000000
+2018-11-05 10:51:52.302 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 10:51:52.302 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 10:51:52.309 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 10:51:52.310 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 10:51:52.310 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 10:51:52.311 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 10:51:52.318 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 10:51:52.320 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:51:52.329 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 10:51:52.331 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 10:51:52.332 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 10:51:52.350 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 10:51:52.421 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 10:51:52.556 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 10:51:52.619 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 10:51:52.620 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 10:51:52.622 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 10:51:52.623 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 10:51:52.623 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 10:51:52.666 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 10:51:52.667 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 10:51:52.668 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 10:51:52.668 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 10:51:52.670 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 10:51:52.740 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:51:52.780 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 10:51:52.782 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:51:52.783 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 10:51:52.783 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 10:51:52.791 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 10:56:42.825 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 10:56:42.862 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 10:56:42.863 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 11:01:32.827 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 11:01:32.867 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 11:01:32.868 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 11:06:22.829 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 11:06:32.836 | JPUSH | D - [JPUSHRequest] Action - onAckTimeout - rid:865
+2018-11-05 11:06:32.839 | JPUSH | D - [JPUSHSessionController] Action - onAckTimeoutForRequest:
+2018-11-05 11:06:32.839 | JPUSH | E - [JPUSHSessionController] ack timeout for request rid: 865
+2018-11-05 11:06:32.840 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2018-11-05 11:06:32.842 | JPUSH | D - [JPUSHSessionController] Action - reenqueueSendingRequests
+2018-11-05 11:06:32.843 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 11:06:32.844 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 11:06:32.845 | JPUSH | D - [JPUSHSessionController] Action - startDelaySetupTimer
+2018-11-05 11:06:32.846 | JPUSH | D - [JPUSHSessionController] session will setup delayed with time interval: 2.000000
+2018-11-05 11:06:34.850 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 11:06:34.851 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 11:06:34.851 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 11:06:34.852 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 11:06:34.852 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 11:06:34.853 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 11:06:34.859 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 11:06:34.860 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 11:06:34.878 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 11:06:34.880 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 11:06:34.881 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 11:06:34.898 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 11:06:34.974 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 11:06:35.098 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 11:06:35.164 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 11:06:35.165 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 11:06:35.167 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 11:06:35.167 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 11:06:35.168 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 11:06:35.206 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 11:06:35.207 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 11:06:35.208 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 11:06:35.209 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 11:06:35.211 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 11:06:35.275 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 11:06:35.308 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 11:06:35.310 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 11:06:35.310 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 11:06:35.311 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 11:06:35.317 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 11:11:25.334 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 11:11:25.377 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 11:11:25.379 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 11:16:15.327 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 11:16:15.367 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 11:16:15.368 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 11:19:02.407 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 11:19:02.508 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 11:19:02.535 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 226;
+    itime = 1541383878;
+    "session_id" = 0485e646593f4d09441e8a2112be70aa;
+    time = "10:11:18";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 11:19:02.558 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 11:19:02.558 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 11:19:02.558 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 11:19:02.772 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        cell = "";
+        gps = "";
+        itime = 1541387942;
+        type = "loc_info";
+        wifi = "";
+    }
+) log succed
+2018-11-05 11:19:02.791 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-11-05";
+        itime = 1541387942;
+        "session_id" = bec76f9c6276c9dcb5016ade9384d71d;
+        time = "11:19:02";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-05 11:19:02.801 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 226;
+        itime = 1541383878;
+        "session_id" = 0485e646593f4d09441e8a2112be70aa;
+        time = "10:11:18";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-05 11:19:02.987 | JPUSH | I - [JPUSHBadgeNumberReport] warning:badge:0 default error:503
+2018-11-05 11:19:04.405 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 14:20:13.792 | JPUSH | D - [JPUSHService] Action - JPUSH begin Setup with appkey:e88ad46410761a1bb90a9ee9 channel:App Store isProduction:TRUE advertisingIdentifier: 
+2018-11-05 14:20:13.813 | JPUSH | I - [JPUSHService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:2.1.6--build:374----------
+-----------------AppKey:e88ad46410761a1bb90a9ee9----------------
+----------------------------------------------------------------
+2018-11-05 14:20:13.816 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 14:20:13.816 | JPUSH | I - [JPUSHClientController] Action - setup
+2018-11-05 14:20:13.888 | JPUSH | D - [JPUSHHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2018-11-05 14:20:13.894 | JPUSH | D - [JPUSHHttpSessionController] wifi 信息:{
+    "mac_address" = "74:ea:cb:25:f5:63";
+    ssid = "DL-WanTest";
+}
+2018-11-05 14:20:13.894 | JPUSH | D - [JPUSHPageFlow] trySetupSession
+2018-11-05 14:20:13.894 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 14:20:13.949 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 2;
+    itime = 1541387944;
+    "session_id" = 46e4d3e6e1df4772b972310c68affde7;
+    time = "11:19:04";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 14:20:13.981 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 14:20:13.982 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 14:20:13.983 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 14:20:14.116 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-11-05";
+        itime = 1541398813;
+        "session_id" = 63a7b95d5db0d98b71692b41f23522b8;
+        time = "14:20:13";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-05 14:20:14.127 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 2;
+        itime = 1541387944;
+        "session_id" = 46e4d3e6e1df4772b972310c68affde7;
+        time = "11:19:04";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-05 14:20:14.195 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 14:20:14.231 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        cell = "";
+        gps = "";
+        itime = 1541398813;
+        type = "loc_info";
+        wifi =         (
+                        {
+                "mac_address" = "74:ea:cb:25:f5:63";
+                ssid = "DL-WanTest";
+            }
+        );
+    }
+) log succed
+2018-11-05 14:20:15.382 | JPUSH | D - [JPUSHService] Action - registerDeviceToken: <42670326 2b410a3d 641888f9 b3b1242e c5a5050f 10f9f9c7 6e1e5bb6 c9a41c89>
+2018-11-05 14:20:15.383 | JPUSH | D - [JPUSHUserDefaultsController] Action - setCurrentDeviceToken - 426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 14:20:15.383 | JPUSH | D - [JPUSHNetworkController] Action - trySetupSession
+2018-11-05 14:20:15.383 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 14:20:15.383 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 14:20:15.384 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 14:20:15.384 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 14:20:15.384 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 14:20:15.385 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 14:20:15.385 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 14:20:15.389 | JPUSH | D - [JPUSHService] Action - setTags:{(
+    s5,
+    c4
+)} alias: 65737365 callbackSelector:object:
+2018-11-05 14:20:15.390 | JPUSH | D - [JPUSHService] Action - setTags: {(
+    s5,
+    c4
+)} alias: 65737365 callbackSelector:target:
+2018-11-05 14:20:15.464 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 14:20:15.464 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 14:20:15.475 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 14:20:15.476 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 14:20:15.477 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 14:20:15.486 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 14:20:15.548 | JPUSH | D - [JPUSHService] Action - setTags:{(
+    s20,
+    c70
+)} alias: 65737365 callbackSelector:object:
+2018-11-05 14:20:15.549 | JPUSH | D - [JPUSHService] Action - setTags: {(
+    s20,
+    c70
+)} alias: 65737365 callbackSelector:target:
+2018-11-05 14:20:15.551 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 14:20:15.660 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 14:20:15.722 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 14:20:15.723 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 14:20:15.725 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 14:20:15.725 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 14:20:15.726 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 14:20:15.764 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 14:20:15.859 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 14:20:15.861 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 14:20:15.862 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 14:20:15.863 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 14:20:16.065 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 14:20:16.235 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 14:20:16.237 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:20:16.238 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 14:20:16.241 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 14:20:16.244 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 14:20:16.245 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 14:20:16.245 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 14:20:16.246 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 14:20:16.247 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 14:20:16.247 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 14:20:16.248 | JPUSH | I - [JPUSHDeviceTokenReport] try to upload device token:426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 14:20:16.286 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:20:16.288 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 14:20:16.363 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:20:16.363 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 14:20:16.363 | JPUSH | I - [JPUSHDeviceTokenReport] upload device token success
+2018-11-05 14:20:17.090 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:25:06.283 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 14:25:06.328 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:25:06.329 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 14:29:32.317 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 14:29:37.488 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 14:29:37.574 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 14:29:37.579 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 14:29:37.670 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:29:37.671 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 14:29:37.821 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 14:29:41.404 | JPUSH | D - [JPUSHService] Action - setTags:{(
+)} alias:  callbackSelector:object:
+2018-11-05 14:29:41.405 | JPUSH | D - [JPUSHService] Action - setTags: {(
+)} alias:  callbackSelector:target:
+2018-11-05 14:29:41.436 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 14:29:41.486 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:29:41.486 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 14:29:44.300 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:29:56.280 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 14:29:56.324 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:29:56.325 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 14:29:59.768 | JPUSH | D - [JPUSHService] Action - setTags:{(
+    s20,
+    c83
+)} alias: 63619379 callbackSelector:object:
+2018-11-05 14:29:59.768 | JPUSH | D - [JPUSHService] Action - setTags: {(
+    s20,
+    c83
+)} alias: 63619379 callbackSelector:target:
+2018-11-05 14:29:59.791 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 14:29:59.829 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:29:59.830 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 14:30:02.063 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 14:59:57.955 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 14:59:57.959 | JPUSH | D - [JPUSHTcpSocket] tcp connection closed by remote
+2018-11-05 14:59:57.960 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 14:59:57.961 | JPUSH | W - [JPUSHSessionController] 连接被关闭
+2018-11-05 14:59:57.962 | JPUSH | W - [JPUSHSessionController] conect close by remote
+2018-11-05 14:59:57.963 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2018-11-05 14:59:57.964 | JPUSH | D - [JPUSHSessionController] Action - reenqueueSendingRequests
+2018-11-05 14:59:57.964 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 14:59:57.965 | JPUSH | D - [JPUSHSessionController] Action - startDelaySetupTimer
+2018-11-05 14:59:57.967 | JPUSH | D - [JPUSHSessionController] session will setup delayed with time interval: 2.000000
+2018-11-05 15:00:01.204 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 15:00:01.216 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 15:00:01.217 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 15:00:01.217 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 15:00:01.218 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 15:00:01.219 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 15:00:01.230 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 15:00:01.231 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:00:01.236 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 15:00:01.237 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 15:00:01.237 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 15:00:01.247 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 15:00:01.281 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 15:00:01.369 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 15:00:01.400 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 15:00:01.401 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:00:01.401 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 15:00:01.402 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 15:00:01.402 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 15:00:01.408 | JPUSH | E - [JPUSHTcpSocket] TCP连接失败,error:61
+2018-11-05 15:00:01.409 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 15:00:01.409 | JPUSH | W - [JPUSHSessionController] 连接被关闭
+2018-11-05 15:00:01.510 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 15:00:01.511 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 15:00:01.511 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 15:00:01.569 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 15:00:01.570 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 15:00:01.570 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 15:00:01.571 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 15:00:01.571 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 15:00:01.614 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:00:01.672 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 15:00:01.674 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:00:01.675 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:00:01.675 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 15:00:01.689 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 15:07:57.828 | JPUSH | D - [JPUSHService] Action - JPUSH begin Setup with appkey:e88ad46410761a1bb90a9ee9 channel:App Store isProduction:TRUE advertisingIdentifier: 
+2018-11-05 15:07:57.844 | JPUSH | I - [JPUSHService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:2.1.6--build:374----------
+-----------------AppKey:e88ad46410761a1bb90a9ee9----------------
+----------------------------------------------------------------
+2018-11-05 15:07:57.846 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 15:07:57.848 | JPUSH | I - [JPUSHClientController] Action - setup
+2018-11-05 15:08:27.361 | JPUSH | D - [JPUSHHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2018-11-05 15:08:27.378 | JPUSH | D - [JPUSHHttpSessionController] wifi 信息:{
+    "mac_address" = "74:ea:cb:25:f5:63";
+    ssid = "DL-WanTest";
+}
+2018-11-05 15:08:27.380 | JPUSH | D - [JPUSHPageFlow] trySetupSession
+2018-11-05 15:08:27.381 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 15:08:27.446 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 559;
+    itime = 1541399372;
+    "session_id" = 6052d9acc707937854888f0c4f7029b6;
+    time = "14:29:32";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 15:08:27.542 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 15:08:27.551 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 15:08:27.552 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 15:08:27.638 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-11-05";
+        itime = 1541401707;
+        "session_id" = 519c08ce4c649415904a0a46ccacedbf;
+        time = "15:08:27";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-05 15:08:27.659 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 559;
+        itime = 1541399372;
+        "session_id" = 6052d9acc707937854888f0c4f7029b6;
+        time = "14:29:32";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-05 15:08:27.811 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 15:08:28.598 | JPUSH | D - [JPUSHService] Action - registerDeviceToken: <42670326 2b410a3d 641888f9 b3b1242e c5a5050f 10f9f9c7 6e1e5bb6 c9a41c89>
+2018-11-05 15:08:28.599 | JPUSH | D - [JPUSHUserDefaultsController] Action - setCurrentDeviceToken - 426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 15:08:28.600 | JPUSH | D - [JPUSHNetworkController] Action - trySetupSession
+2018-11-05 15:08:28.600 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 15:08:28.600 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 15:08:28.601 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 15:08:28.601 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 15:08:28.601 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 15:08:28.601 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 15:08:28.602 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 15:08:28.620 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 15:08:28.621 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:08:28.631 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 15:08:28.632 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 15:08:28.633 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 15:08:28.681 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 15:08:28.725 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 15:08:28.816 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 15:08:28.874 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 15:08:28.876 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:08:28.877 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 15:08:28.878 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 15:08:28.879 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 15:08:28.914 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 15:08:28.915 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 15:08:29.016 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 15:08:29.017 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 15:08:29.018 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 15:08:29.090 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:08:29.142 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 15:08:29.142 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:08:29.143 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:08:29.144 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 15:08:29.147 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 15:08:29.148 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 15:08:29.149 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 15:08:29.149 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 15:08:29.150 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:08:29.151 | JPUSH | I - [JPUSHDeviceTokenReport] try to upload device token:426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 15:08:29.423 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:08:29.426 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:08:29.426 | JPUSH | I - [JPUSHDeviceTokenReport] upload device token success
+2018-11-05 15:10:28.323 | JPUSH | D - [JPUSHService] Action - JPUSH begin Setup with appkey:e88ad46410761a1bb90a9ee9 channel:App Store isProduction:TRUE advertisingIdentifier: 
+2018-11-05 15:10:28.337 | JPUSH | I - [JPUSHService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:2.1.6--build:374----------
+-----------------AppKey:e88ad46410761a1bb90a9ee9----------------
+----------------------------------------------------------------
+2018-11-05 15:10:28.338 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 15:10:28.346 | JPUSH | I - [JPUSHClientController] Action - setup
+2018-11-05 15:10:28.396 | JPUSH | D - [JPUSHHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2018-11-05 15:10:28.404 | JPUSH | D - [JPUSHHttpSessionController] wifi 信息:{
+    "mac_address" = "74:ea:cb:25:f5:63";
+    ssid = "DL-WanTest";
+}
+2018-11-05 15:10:28.404 | JPUSH | D - [JPUSHPageFlow] trySetupSession
+2018-11-05 15:10:28.404 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 15:10:28.439 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 559;
+    itime = 1541399372;
+    "session_id" = 6052d9acc707937854888f0c4f7029b6;
+    time = "14:29:32";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 15:10:28.471 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 15:10:28.477 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 15:10:28.478 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 15:10:28.599 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-11-05";
+        itime = 1541401828;
+        "session_id" = 3447c89e3830414811f51a7a9eaa4118;
+        time = "15:10:28";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-05 15:10:28.623 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 559;
+        itime = 1541399372;
+        "session_id" = 6052d9acc707937854888f0c4f7029b6;
+        time = "14:29:32";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-05 15:10:28.761 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 15:10:29.419 | JPUSH | D - [JPUSHService] Action - registerDeviceToken: <42670326 2b410a3d 641888f9 b3b1242e c5a5050f 10f9f9c7 6e1e5bb6 c9a41c89>
+2018-11-05 15:10:29.420 | JPUSH | D - [JPUSHUserDefaultsController] Action - setCurrentDeviceToken - 426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 15:10:29.420 | JPUSH | D - [JPUSHNetworkController] Action - trySetupSession
+2018-11-05 15:10:29.421 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 15:10:29.421 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 15:10:29.421 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 15:10:29.422 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 15:10:29.423 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 15:10:29.423 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 15:10:29.424 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 15:10:29.436 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 15:10:29.437 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:10:29.441 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 15:10:29.442 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 15:10:29.442 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 15:10:29.448 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 15:10:29.493 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 15:10:29.600 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 15:10:29.641 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 15:10:29.641 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:10:29.643 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 15:10:29.643 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 15:10:29.643 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 15:10:29.649 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 15:10:29.650 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 15:10:29.751 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 15:10:29.753 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 15:10:29.754 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 15:10:29.851 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:10:29.872 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 15:10:29.874 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:10:29.874 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:10:29.875 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 15:10:29.877 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 15:10:29.878 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 15:10:29.878 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 15:10:29.878 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 15:10:29.881 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:10:29.881 | JPUSH | I - [JPUSHDeviceTokenReport] try to upload device token:426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 15:10:30.833 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:10:30.835 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:10:30.836 | JPUSH | I - [JPUSHDeviceTokenReport] upload device token success
+2018-11-05 15:35:26.993 | JPUSH | D - [JPUSHService] Action - JPUSH begin Setup with appkey:e88ad46410761a1bb90a9ee9 channel:App Store isProduction:TRUE advertisingIdentifier: 
+2018-11-05 15:35:27.007 | JPUSH | I - [JPUSHService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:2.1.6--build:374----------
+-----------------AppKey:e88ad46410761a1bb90a9ee9----------------
+----------------------------------------------------------------
+2018-11-05 15:35:27.008 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 15:35:27.011 | JPUSH | I - [JPUSHClientController] Action - setup
+2018-11-05 15:35:27.070 | JPUSH | D - [JPUSHHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2018-11-05 15:35:27.075 | JPUSH | D - [JPUSHHttpSessionController] wifi 信息:{
+    "mac_address" = "74:ea:cb:25:f5:63";
+    ssid = "DL-WanTest";
+}
+2018-11-05 15:35:27.076 | JPUSH | D - [JPUSHPageFlow] trySetupSession
+2018-11-05 15:35:27.076 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 15:35:27.109 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 559;
+    itime = 1541399372;
+    "session_id" = 6052d9acc707937854888f0c4f7029b6;
+    time = "14:29:32";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 15:35:27.140 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 15:35:27.140 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 15:35:27.141 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 15:35:27.277 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-11-05";
+        itime = 1541403327;
+        "session_id" = 5d7693c8b2a40274d6f10a60068ab89a;
+        time = "15:35:27";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-05 15:35:27.287 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 559;
+        itime = 1541399372;
+        "session_id" = 6052d9acc707937854888f0c4f7029b6;
+        time = "14:29:32";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-05 15:35:27.307 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        cell = "";
+        gps = "";
+        itime = 1541403327;
+        type = "loc_info";
+        wifi =         (
+                        {
+                "mac_address" = "74:ea:cb:25:f5:63";
+                ssid = "DL-WanTest";
+            }
+        );
+    }
+) log succed
+2018-11-05 15:35:27.316 | JPUSH | I - [JPUSHHttpSessionController] 设置badge:0 错误:-1004
+2018-11-05 15:35:28.111 | JPUSH | D - [JPUSHService] Action - registerDeviceToken: <42670326 2b410a3d 641888f9 b3b1242e c5a5050f 10f9f9c7 6e1e5bb6 c9a41c89>
+2018-11-05 15:35:28.112 | JPUSH | D - [JPUSHUserDefaultsController] Action - setCurrentDeviceToken - 426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 15:35:28.114 | JPUSH | D - [JPUSHNetworkController] Action - trySetupSession
+2018-11-05 15:35:28.114 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 15:35:28.115 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 15:35:28.115 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 15:35:28.115 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 15:35:28.115 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 15:35:28.116 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 15:35:28.117 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 15:35:28.125 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 15:35:28.125 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:35:28.129 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 15:35:28.129 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 15:35:28.130 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 15:35:28.142 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 15:35:28.182 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 15:35:28.282 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 15:35:28.333 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 15:35:28.334 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:35:28.335 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 15:35:28.335 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 15:35:28.335 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 15:35:28.347 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 15:35:28.348 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 15:35:28.451 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 15:35:28.451 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 15:35:28.452 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 15:35:28.570 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:35:28.603 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 15:35:28.603 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:35:28.604 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:35:28.604 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 15:35:28.606 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 15:35:28.607 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 15:35:28.607 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 15:35:28.607 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 15:35:28.608 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:35:28.609 | JPUSH | I - [JPUSHDeviceTokenReport] try to upload device token:426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 15:35:31.882 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:35:31.884 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:35:31.887 | JPUSH | I - [JPUSHDeviceTokenReport] upload device token success
+2018-11-05 15:37:35.295 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 15:37:36.030 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 15:37:39.983 | JPUSH | D - [JPUSHService] Action - JPUSH begin Setup with appkey:e88ad46410761a1bb90a9ee9 channel:App Store isProduction:TRUE advertisingIdentifier: 
+2018-11-05 15:37:39.993 | JPUSH | I - [JPUSHService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:2.1.6--build:374----------
+-----------------AppKey:e88ad46410761a1bb90a9ee9----------------
+----------------------------------------------------------------
+2018-11-05 15:37:39.994 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 15:37:40.002 | JPUSH | I - [JPUSHClientController] Action - setup
+2018-11-05 15:37:40.055 | JPUSH | D - [JPUSHHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2018-11-05 15:37:40.065 | JPUSH | D - [JPUSHHttpSessionController] wifi 信息:{
+    "mac_address" = "74:ea:cb:25:f5:63";
+    ssid = "DL-WanTest";
+}
+2018-11-05 15:37:40.066 | JPUSH | D - [JPUSHPageFlow] trySetupSession
+2018-11-05 15:37:40.066 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 15:37:40.076 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 15:37:40.317 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 15:37:40.929 | JPUSH | D - [JPUSHService] Action - registerDeviceToken: <42670326 2b410a3d 641888f9 b3b1242e c5a5050f 10f9f9c7 6e1e5bb6 c9a41c89>
+2018-11-05 15:37:40.932 | JPUSH | D - [JPUSHUserDefaultsController] Action - setCurrentDeviceToken - 426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 15:37:40.933 | JPUSH | D - [JPUSHNetworkController] Action - trySetupSession
+2018-11-05 15:37:40.933 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 15:37:40.953 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 15:37:40.953 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 15:37:40.953 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 15:37:40.953 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 15:37:40.954 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 15:37:40.954 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 15:37:40.960 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 15:37:40.961 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:37:40.970 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 15:37:40.972 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 15:37:40.973 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 15:37:40.981 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 15:37:41.033 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 15:37:41.140 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 15:37:41.180 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 15:37:41.180 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 15:37:41.182 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 15:37:41.182 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 15:37:41.182 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 15:37:41.227 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 15:37:41.227 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 15:37:41.338 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 15:37:41.341 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 15:37:41.342 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 15:37:41.459 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:37:41.546 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 15:37:41.549 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:37:41.549 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:37:41.550 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 15:37:41.553 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 15:37:41.555 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 15:37:41.555 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 15:37:41.556 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 15:37:41.558 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:37:41.559 | JPUSH | I - [JPUSHDeviceTokenReport] try to upload device token:426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 15:37:41.633 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:37:41.633 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:37:41.634 | JPUSH | I - [JPUSHDeviceTokenReport] upload device token success
+2018-11-05 15:40:53.909 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 15:42:31.577 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:42:31.631 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:42:31.632 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:47:21.573 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:47:21.625 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:47:21.626 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:52:11.576 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:52:11.625 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:52:11.626 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 15:57:01.572 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 15:57:01.626 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 15:57:01.627 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:01:51.576 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:01:51.626 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:01:51.627 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:03:24.001 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 16:03:24.093 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:03:24.131 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 326;
+    itime = 1541403653;
+    "session_id" = 7a40bf6a4b2d94a71eb286f440ac08d7;
+    time = "15:40:53";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 16:03:24.156 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 16:03:24.156 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 16:03:24.157 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 16:03:24.203 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:03:24.203 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:03:24.223 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-11-05";
+        itime = 1541405004;
+        "session_id" = d8214fd9f1dab495cfadca970c978406;
+        time = "16:03:24";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-05 16:03:24.307 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 16:03:24.525 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 326;
+        itime = 1541403653;
+        "session_id" = 7a40bf6a4b2d94a71eb286f440ac08d7;
+        time = "15:40:53";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-05 16:04:34.559 | JPUSH | D - [JPUSHService] Action - JPUSH begin Setup with appkey:e88ad46410761a1bb90a9ee9 channel:App Store isProduction:TRUE advertisingIdentifier: 
+2018-11-05 16:04:34.573 | JPUSH | I - [JPUSHService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:2.1.6--build:374----------
+-----------------AppKey:e88ad46410761a1bb90a9ee9----------------
+----------------------------------------------------------------
+2018-11-05 16:04:34.574 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 16:04:34.580 | JPUSH | I - [JPUSHClientController] Action - setup
+2018-11-05 16:04:34.637 | JPUSH | D - [JPUSHHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2018-11-05 16:04:34.646 | JPUSH | D - [JPUSHHttpSessionController] wifi 信息:{
+    "mac_address" = "74:ea:cb:25:f5:63";
+    ssid = "DL-WanTest";
+}
+2018-11-05 16:04:34.647 | JPUSH | D - [JPUSHPageFlow] trySetupSession
+2018-11-05 16:04:34.647 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 16:04:34.696 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 326;
+    itime = 1541403653;
+    "session_id" = 7a40bf6a4b2d94a71eb286f440ac08d7;
+    time = "15:40:53";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 16:04:34.733 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 16:04:34.733 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 16:04:34.734 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 16:04:34.810 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-11-05";
+        itime = 1541405074;
+        "session_id" = 3d2a6845435a26f9a20a8ec318e5efe7;
+        time = "16:04:34";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-05 16:04:34.882 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 326;
+        itime = 1541403653;
+        "session_id" = 7a40bf6a4b2d94a71eb286f440ac08d7;
+        time = "15:40:53";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-05 16:04:34.985 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 16:04:35.657 | JPUSH | D - [JPUSHService] Action - registerDeviceToken: <42670326 2b410a3d 641888f9 b3b1242e c5a5050f 10f9f9c7 6e1e5bb6 c9a41c89>
+2018-11-05 16:04:35.658 | JPUSH | D - [JPUSHUserDefaultsController] Action - setCurrentDeviceToken - 426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 16:04:35.658 | JPUSH | D - [JPUSHNetworkController] Action - trySetupSession
+2018-11-05 16:04:35.658 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 16:04:35.659 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-05 16:04:35.659 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-05 16:04:35.660 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-05 16:04:35.660 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-05 16:04:35.660 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-05 16:04:35.661 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-05 16:04:35.676 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-05 16:04:35.676 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 16:04:35.695 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 16:04:35.699 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 16:04:35.703 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 16:04:35.711 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-05 16:04:35.754 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-05 16:04:35.842 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-05 16:04:35.913 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-05 16:04:35.913 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-05 16:04:35.915 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 16:04:35.915 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 16:04:35.915 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 16:04:35.919 | JPUSH | E - [JPUSHTcpSocket] TCP连接失败,error:61
+2018-11-05 16:04:35.921 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 16:04:35.922 | JPUSH | W - [JPUSHSessionController] 连接被关闭
+2018-11-05 16:04:36.050 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 16:04:36.051 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 16:04:36.052 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 16:04:36.062 | JPUSH | E - [JPUSHTcpSocket] TCP连接失败,error:61
+2018-11-05 16:04:36.063 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 16:04:36.067 | JPUSH | W - [JPUSHSessionController] 连接被关闭
+2018-11-05 16:04:36.167 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 16:04:36.168 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 16:04:36.168 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 16:04:36.171 | JPUSH | E - [JPUSHTcpSocket] TCP连接失败,error:61
+2018-11-05 16:04:36.171 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 16:04:36.172 | JPUSH | W - [JPUSHSessionController] 连接被关闭
+2018-11-05 16:04:36.273 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 16:04:36.273 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 16:04:36.273 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 16:04:36.274 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 16:04:36.274 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 16:04:36.276 | JPUSH | E - [JPUSHTcpSocket] TCP连接失败,error:61
+2018-11-05 16:04:36.277 | JPUSH | D - [JPUSHTcpSocket] 关闭TCP连接
+2018-11-05 16:04:36.277 | JPUSH | W - [JPUSHSessionController] 连接被关闭
+2018-11-05 16:04:36.385 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-05 16:04:36.385 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-05 16:04:36.386 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-05 16:04:36.393 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-05 16:04:36.394 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-05 16:04:36.495 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-05 16:04:36.495 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-05 16:04:36.496 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-05 16:04:36.569 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:04:36.601 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-05 16:04:36.602 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:04:36.602 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:04:36.603 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-05 16:04:36.604 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-05 16:04:36.605 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-05 16:04:36.606 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-05 16:04:36.607 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-05 16:04:36.607 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:04:36.608 | JPUSH | I - [JPUSHDeviceTokenReport] try to upload device token:426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-05 16:04:36.634 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:04:36.635 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:04:36.635 | JPUSH | I - [JPUSHDeviceTokenReport] upload device token success
+2018-11-05 16:08:18.210 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-11-05 16:09:26.645 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:09:26.660 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:09:26.662 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:14:16.624 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:14:16.638 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:14:16.639 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:19:06.627 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:19:06.642 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:19:06.643 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:23:56.607 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:23:56.622 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:23:56.623 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:28:46.611 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:28:46.626 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:28:46.627 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:33:36.614 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:33:36.637 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:33:36.638 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:38:26.611 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:38:26.628 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:38:26.629 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:43:16.604 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:43:16.618 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:43:16.620 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:48:06.593 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:48:06.651 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:48:06.652 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:52:56.598 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:52:56.615 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:52:56.616 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 16:57:46.591 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 16:57:46.605 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 16:57:46.606 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 17:02:36.601 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 17:02:36.615 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 17:02:36.615 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 17:07:26.586 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 17:07:26.601 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 17:07:26.607 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 17:07:47.493 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-05 17:07:47.592 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 17:07:47.619 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 224;
+    itime = 1541405298;
+    "session_id" = b4bc6f2fd8fe7565474d2ebba969de43;
+    time = "16:08:18";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-05 17:07:47.652 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-05 17:07:47.653 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-05 17:07:47.665 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-05 17:07:47.783 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-11-05";
+        itime = 1541408867;
+        "session_id" = d0d4614813fd2161e8014e14ff7fbbc2;
+        time = "17:07:47";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-05 17:07:47.784 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-05 17:07:47.787 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 17:07:47.788 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 17:07:47.797 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 224;
+        itime = 1541405298;
+        "session_id" = b4bc6f2fd8fe7565474d2ebba969de43;
+        time = "16:08:18";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-05 17:07:47.835 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        cell = "";
+        gps = "";
+        itime = 1541408867;
+        type = "loc_info";
+        wifi =         (
+                        {
+                "mac_address" = "74:ea:cb:25:f5:63";
+                ssid = "DL-WanTest";
+            }
+        );
+    }
+) log succed
+2018-11-05 17:12:16.574 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 17:12:16.593 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 17:12:16.594 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 17:17:06.577 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 17:17:06.594 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 17:17:06.596 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-05 17:21:56.572 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-05 17:21:56.585 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-05 17:21:56.586 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-06 09:14:42.695 | JPUSH | D - [JPUSHService] Action - JPUSH begin Setup with appkey:e88ad46410761a1bb90a9ee9 channel:App Store isProduction:TRUE advertisingIdentifier: 
+2018-11-06 09:14:42.708 | JPUSH | I - [JPUSHService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:2.1.6--build:374----------
+-----------------AppKey:e88ad46410761a1bb90a9ee9----------------
+----------------------------------------------------------------
+2018-11-06 09:14:42.710 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-11-06 09:14:42.712 | JPUSH | I - [JPUSHClientController] Action - setup
+2018-11-06 09:14:42.776 | JPUSH | D - [JPUSHHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2018-11-06 09:14:42.784 | JPUSH | D - [JPUSHHttpSessionController] wifi 信息:{
+    "mac_address" = "74:ea:cb:25:f5:63";
+    ssid = "DL-WanTest";
+}
+2018-11-06 09:14:42.784 | JPUSH | D - [JPUSHPageFlow] trySetupSession
+2018-11-06 09:14:42.784 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-06 09:14:42.826 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-11-05";
+    duration = 224;
+    itime = 1541405298;
+    "session_id" = b4bc6f2fd8fe7565474d2ebba969de43;
+    time = "16:08:18";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-11-06 09:14:42.856 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-06 09:14:42.870 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-11-06 09:14:42.874 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-11-06 09:14:43.013 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-11-06";
+        itime = 1541466882;
+        "session_id" = 1416f6bfe3a2eb9924d092216ebb443c;
+        time = "09:14:42";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-11-06 09:14:43.024 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-11-05";
+        duration = 224;
+        itime = 1541405298;
+        "session_id" = b4bc6f2fd8fe7565474d2ebba969de43;
+        time = "16:08:18";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-11-06 09:14:43.040 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        cell = "";
+        gps = "";
+        itime = 1541466882;
+        type = "loc_info";
+        wifi =         (
+                        {
+                "mac_address" = "74:ea:cb:25:f5:63";
+                ssid = "DL-WanTest";
+            }
+        );
+    }
+) log succed
+2018-11-06 09:14:43.188 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-11-06 09:14:44.013 | JPUSH | D - [JPUSHService] Action - registerDeviceToken: <42670326 2b410a3d 641888f9 b3b1242e c5a5050f 10f9f9c7 6e1e5bb6 c9a41c89>
+2018-11-06 09:14:44.014 | JPUSH | D - [JPUSHUserDefaultsController] Action - setCurrentDeviceToken - 426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-06 09:14:44.014 | JPUSH | D - [JPUSHNetworkController] Action - trySetupSession
+2018-11-06 09:14:44.014 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-11-06 09:14:44.014 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-11-06 09:14:44.014 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-11-06 09:14:44.015 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-11-06 09:14:44.015 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-11-06 09:14:44.015 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-11-06 09:14:44.016 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-11-06 09:14:44.081 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-11-06 09:14:44.084 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-06 09:14:44.106 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-06 09:14:44.106 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-06 09:14:44.107 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-06 09:14:44.113 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-11-06 09:14:44.150 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-11-06 09:14:44.261 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-11-06 09:14:44.303 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-11-06 09:14:44.304 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-11-06 09:14:44.305 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-11-06 09:14:44.305 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-11-06 09:14:44.306 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-11-06 09:14:44.341 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-11-06 09:14:44.342 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-11-06 09:14:44.443 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-11-06 09:14:44.444 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-11-06 09:14:44.445 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-11-06 09:14:44.524 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-06 09:14:44.575 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-11-06 09:14:44.576 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-06 09:14:44.576 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-06 09:14:44.576 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-11-06 09:14:44.578 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-11-06 09:14:44.580 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-11-06 09:14:44.580 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-11-06 09:14:44.581 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-11-06 09:14:44.581 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-06 09:14:44.581 | JPUSH | I - [JPUSHDeviceTokenReport] try to upload device token:426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-11-06 09:14:44.950 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-06 09:14:44.951 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-06 09:14:44.952 | JPUSH | I - [JPUSHDeviceTokenReport] upload device token success
+2018-11-06 09:19:34.621 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-06 09:19:34.660 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-06 09:19:34.661 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-06 09:24:24.624 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-06 09:24:24.666 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-06 09:24:24.668 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-06 09:29:14.620 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-06 09:29:14.663 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-06 09:29:14.664 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-06 09:34:04.617 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-06 09:34:04.666 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-06 09:34:04.667 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-11-06 09:38:54.602 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-11-06 09:38:54.646 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-11-06 09:38:54.647 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:

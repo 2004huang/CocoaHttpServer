@@ -1,0 +1,1102 @@
+2018-10-29 09:25:11.533 | JPUSH | D - [JPUSHService] Action - JPUSH begin Setup with appkey:e88ad46410761a1bb90a9ee9 channel:App Store isProduction:TRUE advertisingIdentifier: 
+2018-10-29 09:25:11.561 | JPUSH | I - [JPUSHService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:2.1.6--build:374----------
+-----------------AppKey:e88ad46410761a1bb90a9ee9----------------
+----------------------------------------------------------------
+2018-10-29 09:25:11.562 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-10-29 09:25:11.562 | JPUSH | I - [JPUSHClientController] Action - setup
+2018-10-29 09:25:11.628 | JPUSH | D - [JPUSHHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2018-10-29 09:25:11.634 | JPUSH | D - [JPUSHHttpSessionController] wifi 信息:{
+    "mac_address" = "74:ea:cb:25:f5:63";
+    ssid = "DL-WanTest";
+}
+2018-10-29 09:25:11.635 | JPUSH | D - [JPUSHPageFlow] trySetupSession
+2018-10-29 09:25:11.635 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-10-29 09:25:11.665 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-10-26";
+    duration = 3236;
+    itime = 1540528478;
+    "session_id" = e9fbd094ac8263422dc61d105abd91c7;
+    time = "12:34:38";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-10-29 09:25:11.695 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-10-29 09:25:11.696 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-10-29 09:25:11.696 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-10-29 09:25:12.026 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-10-29 09:25:12.667 | JPUSH | D - [JPUSHService] Action - registerDeviceToken: <42670326 2b410a3d 641888f9 b3b1242e c5a5050f 10f9f9c7 6e1e5bb6 c9a41c89>
+2018-10-29 09:25:12.668 | JPUSH | D - [JPUSHUserDefaultsController] Action - setCurrentDeviceToken - 426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-10-29 09:25:12.668 | JPUSH | D - [JPUSHNetworkController] Action - trySetupSession
+2018-10-29 09:25:12.669 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-10-29 09:25:12.669 | JPUSH | D - [JPUSHSessionController] Action - connect
+2018-10-29 09:25:12.669 | JPUSH | D - [JPUSHSessionController] Action - isSisOnProtect
+2018-10-29 09:25:12.669 | JPUSH | D - [JPUSHSessionController] sis is not on protect
+2018-10-29 09:25:12.669 | JPUSH | D - [JPUSHSessionController] Action - reset sis cache
+2018-10-29 09:25:12.670 | JPUSH | D - [JPUSHAddressController] 开始Sis解析
+2018-10-29 09:25:12.671 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest
+2018-10-29 09:25:12.700 | JPUSH | D - [JPUSHAddressController] Action - sendSisRequest:toDefaultPort
+2018-10-29 09:25:12.704 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-10-29 09:25:12.709 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-10-29 09:25:12.710 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-10-29 09:25:12.711 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-10-29 09:25:12.717 | JPUSH | D - [JPUSHAddressController] Action - parse
+2018-10-29 09:25:12.761 | JPUSH | D - [JPUSHAddressController] Action - parse ips address
+2018-10-29 09:25:12.878 | JPUSH | D - [JPUSHAddressController] Action - parseUdpReportAddress:
+2018-10-29 09:25:12.921 | JPUSH | D - [JPUSHAddressController] Action - parseOptionAddress
+2018-10-29 09:25:12.921 | JPUSH | D - [JPUSHUdpSocket] close udp socket,info:
+2018-10-29 09:25:12.923 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:afterConnectUdp:
+2018-10-29 09:25:12.923 | JPUSH | D - [JPUSHSessionController] Action - connectTcp:
+2018-10-29 09:25:12.924 | JPUSH | D - [JPUSHSessionController] connectWithTcpCoreAddress:
+2018-10-29 09:25:12.931 | JPUSH | D - [JPUSHTcpSocket] 连接主机成功
+2018-10-29 09:25:12.940 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-10-29";
+        itime = 1540776311;
+        "session_id" = fa615e910f66c2b57dac7228bb62fd9f;
+        time = "09:25:11";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-10-29 09:25:12.950 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-10-26";
+        duration = 3236;
+        itime = 1540528478;
+        "session_id" = e9fbd094ac8263422dc61d105abd91c7;
+        time = "12:34:38";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-10-29 09:25:12.959 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        cell = "";
+        gps = "";
+        itime = 1540776311;
+        type = "loc_info";
+        wifi =         (
+                        {
+                "mac_address" = "74:ea:cb:25:f5:63";
+                ssid = "DL-WanTest";
+            }
+        );
+    }
+) log succed
+2018-10-29 09:25:12.968 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2018-10-29 09:25:12.969 | JPUSH | D - [JPUSHSessionController] Action - connectUdp:
+2018-10-29 09:25:12.969 | JPUSH | D - [JPUSHSessionController] Action - connectWithUdpCoreAddress:
+2018-10-29 09:25:12.970 | JPUSH | D - [JPUSHUdpSocket] udp socket connected
+2018-10-29 09:25:13.086 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:25:13.117 | JPUSH | D - [JPUSHService] Action - setTags:{(
+    s20,
+    c70
+)} alias: 65737365 callbackSelector:object:
+2018-10-29 09:25:13.118 | JPUSH | D - [JPUSHService] Action - setTags: {(
+    s20,
+    c70
+)} alias: 65737365 callbackSelector:target:
+2018-10-29 09:25:13.146 | JPUSH | I - [JPUSHLogin] 
+----- login result -----
+uid:16090840373 
+registrationID:121c83f7600dce3f282
+2018-10-29 09:25:13.146 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:25:13.146 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 09:25:13.147 | JPUSH | D - [JPUSHSessionController] Event - onLoginRespond
+2018-10-29 09:25:13.148 | JPUSH | D - [JPUSHUtilities] JPUSHPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2018-10-29 09:25:13.149 | JPUSH | D - [JPUSHUdpSocket] send udp data
+2018-10-29 09:25:13.149 | JPUSH | D - [JPUSHUdpSocket] send udp data succeed
+2018-10-29 09:25:13.150 | JPUSH | D - [JPUSHUdpSocket] udp socket begin send behavior
+2018-10-29 09:25:13.150 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:25:13.150 | JPUSH | I - [JPUSHDeviceTokenReport] try to upload device token:426703262b410a3d641888f9b3b1242ec5a5050f10f9f9c76e1e5bb6c9a41c89
+2018-10-29 09:25:13.151 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:25:13.214 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:25:13.215 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 09:25:13.449 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:25:13.450 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 09:25:13.450 | JPUSH | I - [JPUSHDeviceTokenReport] upload device token success
+2018-10-29 09:25:13.714 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:27:14.827 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-10-29 09:30:03.189 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:30:03.199 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:30:03.200 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 09:34:53.165 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:34:53.176 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:34:53.176 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 09:34:56.047 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-10-29 09:34:56.240 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-10-29";
+    duration = 123;
+    itime = 1540776434;
+    "session_id" = cc046e3af9f0fc6eaeb8f351716b52bd;
+    time = "09:27:14";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-10-29 09:34:56.263 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-10-29 09:34:56.264 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-10-29 09:34:56.264 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-10-29 09:34:56.329 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-10-29";
+        itime = 1540776896;
+        "session_id" = 88ca649d1c2e6f90760defe450e13c6e;
+        time = "09:34:56";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-10-29 09:34:56.375 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-10-29";
+        duration = 123;
+        itime = 1540776434;
+        "session_id" = cc046e3af9f0fc6eaeb8f351716b52bd;
+        time = "09:27:14";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-10-29 09:34:56.393 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-10-29 09:37:20.944 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-10-29 09:39:43.174 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:39:43.187 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:39:43.188 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 09:44:33.165 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:44:33.179 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:44:33.180 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 09:49:23.173 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:49:23.190 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:49:23.191 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 09:54:13.156 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:54:13.175 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:54:13.176 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 09:59:03.155 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 09:59:03.172 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 09:59:03.173 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:03:53.157 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:03:53.171 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:03:53.172 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:08:43.158 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:08:43.172 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:08:43.173 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:13:33.163 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:13:33.180 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:13:33.181 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:18:23.132 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:18:23.146 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:18:23.147 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:23:13.133 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:23:13.146 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:23:13.147 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:28:03.134 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:28:03.148 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:28:03.149 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:32:53.136 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:32:53.148 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:32:53.149 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:37:43.114 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:37:45.665 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:37:45.666 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:42:33.114 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:42:33.134 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:42:33.134 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:47:23.112 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:47:23.128 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:47:23.129 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:52:13.114 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:52:13.127 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:52:13.128 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 10:57:03.108 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 10:57:03.122 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 10:57:03.123 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:01:53.096 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:01:53.108 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:01:53.109 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:06:43.089 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:06:43.101 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:06:43.102 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:11:33.083 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:11:33.099 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:11:33.100 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:16:23.107 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:16:23.128 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:16:23.129 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:21:13.070 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:21:13.087 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:21:13.089 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:26:03.071 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:26:03.084 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:26:03.085 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:30:53.079 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:30:53.092 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:30:53.093 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:35:43.063 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:35:43.078 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:35:43.079 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:40:33.067 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:40:33.081 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:40:33.082 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:45:23.053 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:45:23.067 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:45:23.068 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:50:13.059 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:50:13.087 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:50:13.088 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:55:03.056 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:55:03.069 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:55:03.070 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 11:59:53.048 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 11:59:53.070 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 11:59:53.071 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:04:43.044 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:04:43.063 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:04:43.064 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:09:33.047 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:09:33.069 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:09:33.070 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:14:23.050 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:14:23.066 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:14:23.067 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:19:13.049 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:19:13.063 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:19:13.064 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:24:03.034 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:24:03.047 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:24:03.048 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:28:53.029 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:28:53.040 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:28:53.041 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:33:43.030 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:33:43.042 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:33:43.042 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:38:33.021 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:38:33.034 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:38:33.035 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:43:23.016 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:43:23.028 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:43:23.029 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:48:13.017 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:48:13.029 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:48:13.030 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:53:03.012 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:53:03.028 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:53:03.029 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 12:57:53.018 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 12:57:53.032 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 12:57:53.033 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:02:43.010 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:02:43.069 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:02:43.070 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:07:32.995 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:07:33.012 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:07:33.013 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:12:22.995 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:12:23.014 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:12:23.015 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:17:12.992 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:17:13.007 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:17:13.008 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:22:03.002 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:22:03.016 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:22:03.017 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:26:52.973 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:26:52.991 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:26:52.992 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:31:42.981 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:31:43.000 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:31:43.001 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:36:32.966 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:36:32.979 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:36:32.980 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:41:22.971 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:41:22.984 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:41:22.985 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:46:12.961 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:46:12.975 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:46:12.981 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:51:02.959 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:51:02.990 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:51:02.991 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 13:55:52.956 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 13:55:52.973 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 13:55:52.974 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:00:42.954 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:00:42.966 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:00:42.967 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:05:32.942 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:05:32.955 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:05:32.956 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:10:22.939 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:10:22.951 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:10:22.952 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:15:12.941 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:15:12.954 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:15:12.955 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:20:02.938 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:20:02.953 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:20:02.954 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:24:52.944 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:24:52.956 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:24:52.957 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:29:42.916 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:29:42.930 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:29:42.931 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:34:32.912 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:34:32.922 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:34:32.923 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:39:22.912 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:39:22.926 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:39:22.927 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:44:12.904 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:44:12.914 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:44:12.915 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:49:02.903 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:49:02.916 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:49:02.917 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:53:52.894 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:53:52.909 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:53:52.910 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 14:58:42.898 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 14:58:42.912 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 14:58:42.913 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:03:32.897 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:03:32.915 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:03:32.916 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:08:22.893 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:08:23.001 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:08:23.002 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:13:12.878 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:13:12.937 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:13:12.938 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:18:02.882 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:18:02.901 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:18:02.902 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:22:52.883 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:22:52.897 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:22:52.898 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:27:42.881 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:27:42.896 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:27:42.897 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:32:32.887 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:32:32.900 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:32:32.901 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:37:22.857 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:37:22.872 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:37:22.873 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:42:12.861 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:42:12.875 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:42:12.876 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:47:02.859 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:47:02.882 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:47:02.883 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:51:52.841 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:51:52.855 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:51:52.856 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 15:56:42.845 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 15:56:42.860 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 15:56:42.861 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:01:32.841 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:01:32.860 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:01:32.861 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:06:22.848 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:06:22.868 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:06:22.869 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:11:12.826 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:11:12.844 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:11:12.845 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:16:02.831 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:16:02.841 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:16:02.842 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:20:52.829 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:20:52.845 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:20:52.846 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:25:42.830 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:25:42.841 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:25:42.842 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:30:32.827 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:30:32.843 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:30:32.844 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:35:22.803 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:35:22.813 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:35:22.814 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:40:12.806 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:40:12.816 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:40:12.817 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:45:02.803 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:45:02.817 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:45:02.818 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:49:52.802 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:49:52.814 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:49:52.815 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:54:42.788 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:54:45.228 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:54:45.229 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 16:59:32.790 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 16:59:32.804 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 16:59:32.805 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:04:22.785 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:04:22.798 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:04:22.799 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:09:12.789 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:09:12.808 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:09:12.809 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:14:02.789 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:14:02.802 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:14:02.803 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:18:52.771 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:18:55.217 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:18:55.217 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:23:42.774 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:23:42.787 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:23:42.788 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:28:32.773 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:28:32.786 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:28:32.787 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:33:22.771 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:33:22.784 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:33:22.785 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:38:12.755 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:38:12.773 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:38:12.774 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:43:02.746 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:43:02.761 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:43:02.762 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:47:52.755 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:47:52.776 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:47:52.777 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:52:42.748 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:52:42.760 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:52:42.761 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 17:57:32.739 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 17:57:32.754 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 17:57:32.754 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:02:22.729 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:02:25.409 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:02:25.410 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:07:12.730 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:07:12.743 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:07:12.744 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:12:02.734 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:12:02.747 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:12:02.756 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:16:52.737 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:16:52.753 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:16:52.754 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:21:42.719 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:21:42.741 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:21:42.742 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:26:32.717 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:26:32.731 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:26:32.732 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:31:22.719 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:31:22.731 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:31:22.732 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:36:12.703 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:36:12.716 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:36:12.717 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:41:02.713 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:41:02.725 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:41:02.726 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:45:52.723 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:45:52.737 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:45:52.738 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:50:42.693 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:50:42.706 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:50:42.707 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 18:55:32.699 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 18:55:32.712 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 18:55:32.713 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:00:22.699 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:00:22.719 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:00:22.720 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:05:12.679 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:05:12.690 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:05:12.691 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:10:02.675 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:10:02.684 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:10:02.685 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:14:52.676 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:14:52.687 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:14:52.688 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:19:42.682 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:19:42.695 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:19:42.696 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:24:32.680 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:24:32.692 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:24:32.693 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:29:22.684 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:29:22.699 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:29:22.699 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:34:12.657 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:34:12.673 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:34:12.674 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:39:02.651 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:39:02.664 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:39:02.665 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:43:52.656 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:43:52.669 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:43:52.670 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:48:42.650 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:48:42.663 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:48:42.664 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:53:32.655 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:53:32.668 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:53:32.669 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 19:58:22.630 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 19:58:22.643 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 19:58:22.644 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:03:12.630 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:03:12.643 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:03:12.644 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:08:02.632 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:08:02.649 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:08:02.650 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:12:52.631 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:12:52.644 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:12:52.645 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:17:42.638 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:17:42.652 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:17:42.652 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:22:32.634 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:22:32.646 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:22:32.647 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:27:22.613 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:27:22.626 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:27:22.627 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:32:12.613 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:32:12.625 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:32:12.626 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:37:02.607 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:37:02.620 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:37:02.621 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:41:52.597 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:41:52.610 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:41:52.611 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:46:42.599 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:46:42.611 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:46:42.612 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:51:32.589 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:51:32.604 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:51:32.605 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 20:56:22.586 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 20:56:22.600 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 20:56:22.601 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:01:12.590 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:01:12.603 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:01:12.604 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:06:02.587 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:06:02.598 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:06:02.599 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:10:52.571 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:10:52.581 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:10:52.582 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:15:42.571 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:15:42.581 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:15:42.582 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:20:32.575 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:20:32.584 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:20:32.585 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:25:22.565 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:25:22.582 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:25:22.583 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:30:12.572 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:30:12.586 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:30:12.587 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:35:02.551 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:35:02.563 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:35:02.564 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:39:52.541 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:39:52.554 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:39:52.555 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:44:42.550 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:44:42.563 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:44:42.564 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:49:32.541 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:49:32.557 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:49:32.558 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:54:22.546 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:54:22.560 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:54:22.561 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 21:59:12.541 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 21:59:12.554 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 21:59:12.555 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:04:02.519 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:04:02.532 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:04:02.533 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:08:52.518 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:08:52.533 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:08:52.534 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:13:42.520 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:13:42.534 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:13:42.535 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:18:32.522 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:18:32.537 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:18:32.538 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:23:22.513 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:23:22.526 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:23:22.527 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:28:12.498 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:28:12.512 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:28:12.513 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:33:02.497 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:33:02.510 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:33:02.511 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:37:52.495 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:37:52.509 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:37:52.510 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:42:42.492 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:42:42.509 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:42:42.510 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:47:32.491 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:47:32.505 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:47:32.505 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:52:22.470 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:52:22.492 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:52:22.493 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 22:57:12.476 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 22:57:12.488 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 22:57:12.489 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:02:02.480 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:02:02.493 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:02:02.494 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:06:52.475 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:06:52.489 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:06:52.490 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:11:42.481 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:11:42.495 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:11:42.496 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:16:32.454 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:16:32.467 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:16:32.468 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:21:22.454 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:21:22.467 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:21:22.468 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:26:12.450 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:26:12.465 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:26:12.466 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:31:02.453 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:31:02.465 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:31:02.466 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:35:52.446 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:35:52.459 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:35:52.460 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:40:42.436 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:40:42.446 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:40:42.447 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:45:32.435 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:45:32.444 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:45:32.445 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:50:22.434 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:50:22.444 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:50:22.445 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-29 23:55:12.433 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-29 23:55:12.446 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-29 23:55:12.447 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:00:02.433 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:00:02.453 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:00:02.454 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:04:52.429 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:04:52.443 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:04:52.444 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:09:42.410 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:09:42.440 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:09:42.441 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:14:32.409 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:14:32.421 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:14:32.422 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:19:22.415 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:19:22.429 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:19:22.430 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:24:12.410 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:24:12.419 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:24:12.420 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:29:02.416 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:29:02.430 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:29:02.431 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:33:52.387 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:33:52.403 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:33:52.404 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:38:42.385 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:38:42.401 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:38:42.401 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:43:32.392 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:43:32.405 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:43:32.406 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:48:22.382 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:48:22.391 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:48:22.392 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:53:12.388 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:53:12.401 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:53:12.402 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 00:58:02.362 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 00:58:02.370 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 00:58:02.371 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:02:52.362 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:02:52.371 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:02:52.372 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:07:42.361 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:07:42.373 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:07:42.374 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:12:32.366 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:12:32.378 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:12:32.379 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:17:22.366 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:17:22.386 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:17:22.387 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:22:12.342 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:22:12.355 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:22:12.356 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:27:02.347 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:27:02.361 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:27:02.362 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:31:52.339 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:31:52.352 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:31:52.353 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:36:42.323 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:36:42.336 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:36:42.337 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:41:32.329 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:41:32.343 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:41:32.344 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:46:22.338 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:46:22.351 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:46:22.353 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:51:12.316 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:51:12.332 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:51:12.333 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 01:56:02.317 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 01:56:02.330 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 01:56:02.331 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:00:52.324 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:00:52.337 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:00:52.338 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:05:42.314 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:05:42.329 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:05:42.330 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:10:32.326 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:10:32.339 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:10:32.340 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:15:22.289 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:15:22.302 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:15:22.302 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:20:12.298 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:20:12.312 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:20:12.313 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:25:02.288 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:25:02.298 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:25:02.299 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:29:52.291 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:29:52.300 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:29:52.301 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:34:42.279 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:34:42.293 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:34:42.294 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:39:32.270 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:39:32.279 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:39:32.280 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:44:22.280 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:44:22.291 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:44:22.292 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:49:12.272 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:49:12.283 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:49:12.284 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:54:02.275 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:54:02.287 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:54:02.288 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 02:58:52.269 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 02:58:52.286 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 02:58:52.287 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:03:42.276 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:03:42.291 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:03:42.292 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:08:32.245 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:08:32.259 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:08:32.260 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:13:22.249 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:13:22.266 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:13:22.267 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:18:12.251 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:18:12.264 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:18:12.265 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:23:02.247 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:23:02.260 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:23:02.261 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:27:52.249 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:27:52.264 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:27:52.265 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:32:42.222 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:32:42.236 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:32:42.237 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:37:32.219 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:37:32.232 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:37:32.233 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:42:22.220 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:42:22.235 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:42:22.236 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:47:12.216 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:47:12.230 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:47:12.231 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:52:02.223 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:52:02.236 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:52:02.237 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 03:56:52.219 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 03:56:52.231 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 03:56:52.232 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:01:42.197 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:01:42.210 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:01:42.212 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:06:32.195 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:06:32.209 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:06:32.209 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:11:22.200 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:11:22.213 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:11:22.214 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:16:12.194 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:16:12.207 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:16:12.208 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:21:02.202 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:21:02.215 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:21:02.216 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:25:52.168 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:25:52.183 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:25:52.184 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:30:42.173 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:30:42.188 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:30:42.189 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:35:32.167 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:35:32.182 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:35:32.182 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:40:22.161 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:40:22.173 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:40:22.174 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:45:12.167 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:45:12.180 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:45:12.181 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:50:02.160 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:50:02.170 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:50:02.171 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:54:52.148 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:54:52.157 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:54:52.157 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 04:59:42.150 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 04:59:42.164 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 04:59:42.165 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:04:32.146 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:04:32.156 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:04:32.157 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:09:22.152 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:09:22.161 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:09:22.162 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:14:12.149 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:14:12.158 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:14:12.159 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:19:02.130 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:19:02.139 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:19:02.140 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:23:52.120 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:23:52.134 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:23:52.135 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:28:42.129 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:28:42.144 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:28:42.145 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:33:32.121 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:33:32.134 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:33:32.135 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:38:22.108 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:38:22.609 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:38:22.610 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:43:12.106 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:43:12.121 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:43:12.122 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:48:02.097 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:48:02.111 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:48:02.112 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:52:52.104 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:52:52.116 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:52:52.117 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 05:57:42.098 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 05:57:42.107 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 05:57:42.108 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:02:32.104 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:02:32.116 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:02:32.117 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:07:22.097 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:07:22.111 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:07:22.112 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:12:12.079 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:12:12.093 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:12:12.094 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:17:02.073 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:17:02.088 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:17:02.089 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:21:52.073 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:21:52.085 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:21:52.086 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:26:42.069 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:26:42.089 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:26:42.090 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:31:32.073 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:31:32.088 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:31:32.089 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:36:22.057 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:36:22.071 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:36:22.072 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:41:12.055 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:41:12.068 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:41:12.069 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:46:02.049 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:46:02.062 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:46:02.063 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:50:52.054 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:50:52.071 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:50:52.071 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 06:55:42.050 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 06:55:42.064 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 06:55:42.065 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:00:32.059 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:00:32.074 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:00:32.075 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:05:22.025 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:05:22.039 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:05:22.040 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:10:12.035 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:10:12.044 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:10:12.045 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:15:02.029 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:15:02.037 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:15:02.038 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:19:52.034 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:19:54.774 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:19:54.774 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:24:42.029 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:24:42.042 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:24:42.043 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:29:32.009 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:29:32.022 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:29:32.023 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:34:22.007 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:34:22.021 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:34:22.022 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:39:12.000 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:39:12.015 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:39:12.016 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:44:02.002 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:44:02.010 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:44:02.011 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:48:51.999 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:48:52.008 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:48:52.009 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:53:42.003 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:53:42.012 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:53:42.013 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 07:58:31.982 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 07:58:31.995 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 07:58:31.996 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:03:21.984 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:03:21.997 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:03:21.998 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:08:11.982 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:08:11.998 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:08:11.999 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:13:01.984 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:13:01.996 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:13:01.997 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:17:51.989 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:17:52.006 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:17:52.007 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:22:41.957 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:22:41.970 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:22:41.971 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:27:31.961 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:27:31.973 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:27:31.974 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:32:21.958 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:32:21.971 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:32:21.972 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:37:11.951 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:37:11.966 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:37:11.967 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:42:01.944 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:42:01.963 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:42:01.964 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:46:51.933 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:46:51.947 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:46:51.947 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:51:41.933 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:51:41.949 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:51:41.950 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 08:56:31.933 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 08:56:31.952 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 08:56:31.953 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 09:01:21.938 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 09:01:21.955 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 09:01:21.956 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 09:06:11.933 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 09:06:11.942 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 09:06:11.943 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 09:08:24.304 | JPUSH | D - [JPUSHService] Action - resetBadge
+2018-10-30 09:08:24.425 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 09:08:24.475 | JPUSH | D - [JPUSHUserActiveReport] report content {
+    activities = "";
+    date = "2018-10-29";
+    duration = 144;
+    itime = 1540777040;
+    "session_id" = e97466a0a40f2056bff29bccc430c026;
+    time = "09:37:20";
+    timezone = "+8";
+    type = "active_terminate";
+}
+2018-10-30 09:08:24.513 | JPUSH | D - [JPUSHHttpSessionController] Action - setupSession
+2018-10-30 09:08:24.513 | JPUSH | D - [JPUSHPageFlow] setupSession
+2018-10-30 09:08:24.514 | JPUSH | D - [JPUSHPageFlow] resetCurrentPage
+2018-10-30 09:08:24.579 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 09:08:24.579 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 09:08:24.589 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        date = "2018-10-30";
+        itime = 1540861704;
+        "session_id" = 5e680fc88c96a649c39bb90f5605d990;
+        time = "09:08:24";
+        timezone = "+8";
+        type = "active_launch";
+    }
+) log succed
+2018-10-30 09:08:24.602 | JPUSH | I - [JPUSHBadgeNumberReport] set badge:0 succeed
+2018-10-30 09:08:24.622 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        activities = "";
+        date = "2018-10-29";
+        duration = 144;
+        itime = 1540777040;
+        "session_id" = e97466a0a40f2056bff29bccc430c026;
+        time = "09:37:20";
+        timezone = "+8";
+        type = "active_terminate";
+    }
+) log succed
+2018-10-30 09:08:24.696 | JPUSH | D - [JPUSHReport] send report:(
+        {
+        cell = "";
+        gps = "";
+        itime = 1540861704;
+        type = "loc_info";
+        wifi = "";
+    }
+) log succed
+2018-10-30 09:09:14.500 | JPUSH | D - [JPUSHPageFlow] savePageFlowWithTime
+2018-10-30 09:11:01.916 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 09:11:01.938 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 09:11:01.939 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 09:15:51.910 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 09:15:51.919 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 09:15:51.920 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:
+2018-10-30 09:20:41.917 | JPUSH | D - [JPUSHSessionController] Action - doSendTcpRequest
+2018-10-30 09:20:41.927 | JPUSH | D - [JPUSHTcpSocket] Got tcp command
+2018-10-30 09:20:41.928 | JPUSH | D - [JPUSHSessionController] Action - onAckOrRespReceived:

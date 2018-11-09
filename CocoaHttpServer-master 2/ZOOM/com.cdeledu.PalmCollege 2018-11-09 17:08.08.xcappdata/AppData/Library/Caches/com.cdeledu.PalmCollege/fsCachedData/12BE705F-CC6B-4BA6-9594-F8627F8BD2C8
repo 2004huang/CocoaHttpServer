@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><Root><ReturnCode>1</ReturnCode><ReturnMsg>success</ReturnMsg><CwareID>18232</CwareID><VideoID>0102</VideoID><ReturnHTML><node><nodeid>NODE01418900010200000101</nodeid><timestart>00:00:01</timestart><videotime>1</videotime><nodeText><![CDATA[
+
+    
+		<div onMouseOver=""><a name="TimeNode" id="NODE01418900010200000101" title="双击跳到本段播放(00:00:01)" style="tskclass;cursor:pointer;border:0px solid gray;" onClick="OpenStatusDiv(this);">
+		
+  
+　　
+<B>知识点：会计的产生与发展</B><BR>
+　　<B>【学习目标 】</B><BR>
+　　通过学习会计产生与发展的历史，体会会计理论的波浪式前进过程，知道会计是伴随经济环境的变化而变化的。 <BR>
+
+		</a></div>
+		]]></nodeText></node><node><nodeid>NODE01418900010200000102</nodeid><timestart>00:01:41</timestart><videotime>101</videotime><nodeText><![CDATA[
+
+    
+		<div onMouseOver=""><a name="TimeNode" id="NODE01418900010200000102" title="双击跳到本段播放(00:01:41)" style="tskclass;cursor:pointer;border:0px solid gray;" onClick="OpenStatusDiv(this);">
+		
+  
+　　1.会计的产生<BR>
+　　结绳记事——是文字发明前，人类所使用的一种记事方法。即在一条绳子上打结，用以记事。 （萌牙：简单记录）<BR>
+　　<img src="http://images.cdeledu.com/images/13719/0102/01.gif" max_x="200px" max_y="150px"><BR>
+
+		</a></div>
+		]]></nodeText></node><node><nodeid>NODE01418900010200000103</nodeid><timestart>00:05:31</timestart><videotime>331</videotime><nodeText><![CDATA[
+
+    
+		<div onMouseOver=""><a name="TimeNode" id="NODE01418900010200000103" title="双击跳到本段播放(00:05:31)" style="tskclass;cursor:pointer;border:0px solid gray;" onClick="OpenStatusDiv(this);">
+		
+  
+　　2.会计的发展<BR>
+　　（1）古代会计<BR>
+　　古代会计阶段一般是指复式记账法出现以前的漫长时期。这一阶段，会计的特点是以实物和货币作为计量单位，作为生产职能的附带部分，以官厅会计为主，会计核算采用“<span class="font14zd">单式记账法</span>”。<BR>
+　　西周——出现会计一词、采用单式记账法【上入下出】 <BR>
+　　唐宋——四柱结算法 <BR>
+　　“旧管”（上期结存）、“新收” （本期收入） <BR>
+　　“开除”（本期支出）、“实在”（期末结存） <BR>
+　　明清——龙门账 <BR>
+　　“进”（收入）、“缴”（支出）、 存”（资产）、“该”（负债和资本）<BR>
+
+		</a></div>
+		]]></nodeText></node><node><nodeid>NODE01418900010200000104</nodeid><timestart>00:13:29</timestart><videotime>809</videotime><nodeText><![CDATA[
+
+    
+		<div onMouseOver=""><a name="TimeNode" id="NODE01418900010200000104" title="双击跳到本段播放(00:13:29)" style="tskclass;cursor:pointer;border:0px solid gray;" onClick="OpenStatusDiv(this);">
+		
+  
+　　（2）近代会计<BR>
+　　近代会计阶段是从运用<span class="font14zd">复式</span>簿记开始的。在这一阶段，有两个重要的时间，称为近代会计发展史上的两个里程碑。<BR>
+　　①1494年，意大利传教士卢卡·帕乔利出版了一本著作《算术、几何、比及比例概要》，其中一章“簿记论” ，全面系统地介绍了复式记账法，该书的出版被誉为重要的里程碑，标注着近代会计的开始。<BR>
+　　②1853年在英国成立的世界上第一个会计师协会——爱丁堡会计师公会，被认为是近代会计发展史上的第二个里程碑。<BR>
+
+		</a></div>
+		]]></nodeText></node><node><nodeid>NODE01418900010200000105</nodeid><timestart>00:18:38</timestart><videotime>1118</videotime><nodeText><![CDATA[
+
+    
+		<div onMouseOver=""><a name="TimeNode" id="NODE01418900010200000105" title="双击跳到本段播放(00:18:38)" style="tskclass;cursor:pointer;border:0px solid gray;" onClick="OpenStatusDiv(this);">
+		
+  
+　　（3）现代会计 <BR>
+　　1952年，国际会计师联合会正式通过“管理会计”这一专业术语，标志着会计正式划分为“财务会计”与“管理会计”两大领域。 <BR>
+
+		</a></div>
+		]]></nodeText></node></ReturnHTML></Root>
